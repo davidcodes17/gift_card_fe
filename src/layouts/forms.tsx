@@ -167,6 +167,7 @@ const Forms = () => {
                           <Button
                             onClick={() => {
                               setDialogOpen(false);
+                              window.location.replace("https://myrtleng.com");
                             }}
                             className={`py-8 ${
                               data?.success ? "bg-[#07C75F]" : "bg-[#000]"
